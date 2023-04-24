@@ -3,7 +3,7 @@ import React from "react";
 const experiences = [
   {
     entrepirse: "2MSYNERGY SARL, FES",
-    entreprise: "exp 1",
+    title: "Stagaire",
     technologies:
       "React.js  -  Next.js  -  Sanity CMS  -  Node.js  -  Tailwind",
     period: "JUI 2022 - SEP 2022",
