@@ -2,19 +2,24 @@ import React from "react";
 
 const formations = [
   {
-    nom: "nom 1",
-    ecole: "ecole 1",
-    period: "2018-2020",
+    nom: "Cycle d'ingénieur en Génie Informatique option MIAGE",
+    ecole: "Ecole Marocaine des Sciences de l'ingénieur EMSI Marrakech",
+    period: "2021 - en cours",
   },
   {
-    nom: "nom 2",
-    ecole: "ecole 1",
-    period: "2018-2020",
+    nom: "DTS Technichien Spécialisé en Développement informatique",
+    ecole: "Institut spécialisé de technologie appliquée Tasila Agadir",
+    period: "2018 - 2020",
   },
   {
-    nom: "nom 3",
-    ecole: "ecole 1",
-    period: "2018-2020",
+    nom: "(DEUG) / Physique – Chimie",
+    ecole: "Université Ibn Zohr",
+    period: "2016 - 2018",
+  },
+  {
+    nom: "Baccalauréat Sciences expérimentales option sciences physiques",
+    ecole: "Lycée Al Maarifa",
+    period: "2014 - 2015",
   },
 ];
 
