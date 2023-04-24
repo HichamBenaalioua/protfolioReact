@@ -2,19 +2,23 @@ import React from "react";
 
 const experiences = [
   {
-    nom: "nom 1",
-    title: "exp 1",
-    period: "2018-2020",
+    entrepirse: "2MSYNERGY SARL, FES",
+    entreprise: "exp 1",
+    technologies:
+      "React.js  -  Next.js  -  Sanity CMS  -  Node.js  -  Tailwind",
+    period: "JUI 2022 - SEP 2022",
   },
   {
-    nom: "nom 2",
-    title: "exp 1",
-    period: "2018-2020",
+    entrepirse: "TECHNOPECK, AGADIR",
+    title: "Stagaire",
+    technologies: "Vue.js  -  Laravel  -  Tailwind  -  Flutter",
+    period: "mai 2020 - SEP 2021",
   },
   {
-    nom: "nom 3",
-    title: "exp 1",
-    period: "2018-2020",
+    entrepirse: "WSOFT, AGADIR",
+    title: "Stagaire",
+    technologies: "React.js  -  C#  -  ASP.NET  -  Bootstrap",
+    period: "Feb 2019 - Mar 2019",
   },
 ];
 function Experience() {
@@ -30,10 +34,13 @@ function Experience() {
           }
         >
           <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">
-            {experience.nom}
+            {experience.entrepirse}
           </h5>
           <h5 class="mb-2 text-1xl font-light tracking-tight  text-white">
             {experience.title}
+          </h5>
+          <h5 class="mb-2 text-1xl font-light tracking-tight  text-white">
+            {experience.technologies}
           </h5>
           <h5 class="mb-2 text-1xl font-normal tracking-tight  text-white">
             {experience.period}
