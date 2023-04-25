@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="w-screen h-screen flex flex-col items-center justify-between">
+    <div className="w-screen h-screen flex flex-col overflow-x-hidden items-center justify-between">
       <div>
         <Header />
         <Navbar />
