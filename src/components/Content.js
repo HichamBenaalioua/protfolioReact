@@ -8,7 +8,7 @@ import Projects from "./routes/Projects";
 import Certifications from "./routes/Certifications";
 function Content() {
   return (
-    <div className="grow  w-screen pt-14 pb-14">
+    <div className="grow  w-screen pt-14 pb-14 bg-white">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="formations" element={<Formations />} />

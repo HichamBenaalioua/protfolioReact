@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className=" w-screen h-[32rem]  text-white flex flex-col items-center justify-center ">
       <video
-        className="object-fill w-screen h-[32rem] -z-10 absolute bg-gray-800"
+        className="object-cover w-auto min-w-full min-h-full max-w-none h-[32rem] -z-10 absolute bg-gray-800"
         autoPlay
         loop
         muted
